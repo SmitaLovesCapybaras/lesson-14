@@ -7,7 +7,7 @@ size=0
 while True:
     for i in range(4):
         pen.fd(size+1)
-        pen.left(90)
+        pen.left(120)
         size=size-5
     size=size+1
 turtle.done()
